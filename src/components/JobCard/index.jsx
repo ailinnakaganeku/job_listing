@@ -16,6 +16,8 @@ const JobCard = ({ job }) => {
       <div className="flex items-center justify-end space-x-4">
         <a
           href={job.url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-sky-500	py-2 px-4 rounded-lg font-medium text-white"
         >
           Apply Now
